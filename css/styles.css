@@ -9,6 +9,16 @@
     margin: 10% 45%;
     padding: 10px;
     border: solid black;
+    background: radial-gradient(circle, #fff,#bbb);
+
+}
+
+.pantalla{
+    margin: 10px auto;
+    width: 100%;
+    padding: 0.1em;
+    border-radius: 15px;
+
 
 }
 
@@ -17,12 +27,21 @@
     margin-left: 30%;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
-.botones{
+
+.teclas{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
+    grid-gap: 10px;
+    padding: 10px;
+    filter: drop-shadow(3px 1px 2px);
 }
-.teclado{
+
+button{
+    height: 60px;
+}
+
+#borrar{
+    background: red;
+    width: 300px;
 
 }
