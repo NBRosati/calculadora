@@ -4,12 +4,16 @@
     box-sizing:content-box;
 }
 
+body{
+    background: rgb(204, 199, 199) !important;
+}
+
 #calc{
     display: inline-block;
     margin: 10% 40%;
     padding: 10px;
     border: solid black;
-    background: radial-gradient(circle, #fff,#bbb);
+    background: radial-gradient(circle, #fff,rgb(173, 165, 165));
 
 }
 
